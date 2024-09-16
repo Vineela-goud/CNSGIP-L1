@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Recipes</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to Delicious Recipes</h2>
+            <p>Find a variety of recipes to suit your taste and dietary needs.</p>
+        </section>
+        
+        <section id="recipes">
+            <h2>Featured Recipes</h2>
+            <article>
+                <h3>Spaghetti Carbonara</h3>
+                <img src="spaghetti-carbonara.jpg" alt="Spaghetti Carbonara">
+                <p>A classic Italian pasta dish with creamy sauce, eggs, cheese, pancetta, and pepper.</p>
+            </article>
+            
+            <article>
+                <h3>Chicken Curry</h3>
+                <img src="chicken-curry.jpg" alt="Chicken Curry">
+                <p>A flavorful and spicy chicken curry with a rich and creamy sauce.</p>
+            </article>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Delicious Recipes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
